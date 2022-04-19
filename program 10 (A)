@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+class Default_constructor {
+   private:
+   int num1, num2 ;
+   public:
+   Default_constructor() {
+      num1 = 129;
+      num2 = 130;
+   }
+   void display() {
+      cout<<"num1 = "<< num1 <<endl;
+      cout<<"num2 = "<< num2 <<endl;
+   }
+};
+int main() {
+   Default_constructor obj;
+   obj.display();
+   return 0;
+}
